@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Input Section */
+.input-section input {
+    padding: 8px;
+    margin: 5px;
+    width: 40%;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Data Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Bar Chart */
+.chart-container {
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.bar {
+    width: 30px;
+    margin: 5px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+}
+
+/* Pie Chart */
+#pieChart {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.pieSlice {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: orange;
+    transform-origin: 100% 50%;
+}

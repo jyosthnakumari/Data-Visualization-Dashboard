@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Dashboard</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Data Visualization Dashboard</h1>
+        
+        <!-- Data Input Form -->
+        <div class="input-section">
+            <input type="text" id="category" placeholder="Enter Category">
+            <input type="number" id="value" placeholder="Enter Value">
+            <button onclick="addData()">Add Data</button>
+        </div>
+
+        <!-- Data Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be added dynamically -->
+            </tbody>
+        </table>
+
+        <!-- Bar Chart -->
+        <h2>Bar Chart</h2>
+        <div class="chart-container" id="barChart"></div>
+
+        <!-- Pie Chart -->
+        <h2>Pie Chart</h2>
+        <div class="chart-container">
+            <div id="pieChart"></div>
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
